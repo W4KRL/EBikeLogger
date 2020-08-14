@@ -37,9 +37,9 @@
 #include "barGraphSymbols.h"      // custom definitions
 
 // Wi-Fi & timezone credentials
-const char WIFI_SSID[]     = "DCMNET";
-const char WIFI_PASSWORD[] = "0F1A2D3E4D5G6L7O8R9Y";
-const String TIME_ZONE     = "America/New_York";
+const char WIFI_SSID[]     = "your wi-fi ssid";
+const char WIFI_PASSWORD[] = "your wi-fi password";
+const String TIME_ZONE     = "America/New_York";  // your Olson timezone
 
 // ***************** CONNECTIONS ***********************
 // use TTGO T8 V1.7 TF Socket connections - non-standard
