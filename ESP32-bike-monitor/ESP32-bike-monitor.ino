@@ -48,13 +48,13 @@
 #include "barGraphSymbols.h"      // custom definitions
 
 // Wi-Fi, OTA & timezone credentials
-const char WIFI_SSID[]     = "DCMNET";
-const char WIFI_PASSWORD[] = "0F1A2D3E4D5G6L7O8R9Y";
+const char WIFI_SSID[]     = "your wi-fi ssid";
+const char WIFI_PASSWORD[] = "your wi-fi password";
 const String TIME_ZONE     = "America/New_York";
 
 #ifdef ARDUINO_OTA
 const char OTA_HOSTNAME[]  = "bikelogger";
-const char OTA_PASSWORD[]  = "1752";
+const char OTA_PASSWORD[]  = "password";
 #endif
 
 // ***************** CONNECTIONS ***********************
