@@ -32,7 +32,7 @@ The code and schematic for the project are on GitHub at https://github.com/W4KRL
   * LiquidCrystal_I2C by Frank de Branbander https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library
   * ezTime by Rop Gonggrijp – https://github.com/ropg/ezTime
   
-* Add your WiFi SSID and password at the places indicated (approximately lines 40 and 41). Add your timezone using the Olson format at line 42. Use this reference https://gist.github.com/ykessler/3349954
+* Add your WiFi SSID and password at the places indicated (approximately lines 51 and 52). Add your timezone using the Olson format at line 53. Use this reference https://gist.github.com/ykessler/3349954
 
 * Save the file and upload it to the ESP32.
 
