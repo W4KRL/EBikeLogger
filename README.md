@@ -5,7 +5,7 @@ Soon after I got my Ancheer 26-inch folding electric bicycle, I built a data log
 
 The prototype hardware used Dupont jumpers to connect the components temporarily housed in a dollar store kitchen container. This worked well on several rides so the next step was to build it on a stripboard and put it in a real project enclosure. The project has gone through several evolutionary improvements and is now well developed.
 
-The project is based on an ESP32 dev kit, specifically the TTGO T8 V1.7 with onboard LiPo charger and microSD card socket. Other ESP32 boards could be used but few are available with the integrated microSD socket. Stand-alone sockets are available that can easily be connected to the ESP32.
+The project is based on an ESP32 dev kit, specifically the TTGO T8 V1.7 with onboard LiPo charger and microSD card socket. Other ESP32 boards could be used but few are available with the integrated microSD socket. Stand-alone sockets are available that can easily be connected to the ESP32. https://www.viator.com/blog/article/8-countries-americans-can-still-visit-right-now/l24801?m=63727&nid=VR.cf92b487-8450-491a-986a-8148f66edec9.VT_EMAIL_TRV
 
 E-bike battery current is measured with an ACS712 Hall-effect sensor rated at 20 amperes. Battery voltage is measured with one of the built-in analog to digital converters provided in the ESP32 and scaled with a simple voltage divider. Measured and calculated values are displayed on an LCD1602 backlit display and simultaneously logged to the SD card. At the end of your ride, you remove the card and plug it into a PC to read the comma-separated value (CSV) data. Future development will do the logging on a smartphone allowing the data to be combined with GPS tracking and video recording.
 
@@ -39,17 +39,17 @@ The code and schematic for the project are on GitHub at https://github.com/W4KRL
 **PARTS LIST**
 
 1. TTGO T8 V1.7 WiFi Bluetooth module with ESP32 with 16MB flash – See Aliexpress.com. You can use any ESP32 devkit with the addition of an SD card reader module.
-50V (or higher) to 5V Buck (Step-down) converter 1Amp or higher. Search Aliexpress for “DC 7-50V to 5V Step Down Converter”. The ones made for automobiles should work well. https://www.aliexpress.com/item/32916697168.html
-2. LCD 1602 display with I2C interface
-3. ACS712-20A – 20-amp version http://www.aliexpress.com/item/1103203995.html
-4. 120 k-ohm resistor
-5. 39 k-ohm resistor
-6. 10 k-ohm resistor
-7. Deans Connector male
-8. Deans connector female
-9. USB Type-A connector. I used a socket taken from a dollar store phone charger.
-10. Single Pole, Double Throw (SPDT) switch
-11. Connectors and terminals as needed. Use #18 AWG wire or larger for the power circuit.
-12. Stripboard 93×55 mm prototype board https://www.taydaelectronics.com/small-stripboard-93x55mm-copper.html
-13. Project enclosure 71x106x39 mm https://www.taydaelectronics.com/project-plastic-box-03.html
-14. Micro SD card 1GB
+2. 50V (or higher) to 5V Buck (Step-down) converter 1Amp or higher. Search Aliexpress for “DC 7-50V to 5V Step Down Converter”. The ones made for automobiles should work well. https://www.aliexpress.com/item/32916697168.html
+3. LCD 1602 display with I2C interface
+4. ACS712-20A – 20-amp version http://www.aliexpress.com/item/1103203995.html
+5. 120 k-ohm resistor
+6. 39 k-ohm resistor
+7. 10 k-ohm resistor
+8. Deans Connector male
+9. Deans connector female
+10. USB Type-A connector. I used a socket taken from a dollar store phone charger.
+11. Single Pole, Double Throw (SPDT) switch
+12. Connectors and terminals as needed. Use #18 AWG wire or larger for the power circuit.
+13. Stripboard 93×55 mm prototype board https://www.taydaelectronics.com/small-stripboard-93x55mm-copper.html
+14. Project enclosure 71x106x39 mm https://www.taydaelectronics.com/project-plastic-box-03.html
+15. Micro SD card 1GB
