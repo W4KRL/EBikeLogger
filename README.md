@@ -5,7 +5,7 @@ Soon after I got my Ancheer 26-inch folding electric bicycle, I built a data log
 
 The prototype hardware used Dupont jumpers to connect the components temporarily housed in a dollar store kitchen container. This worked well on several rides so the next step was to build it on a stripboard and put it in a real project enclosure. The project has gone through several evolutionary improvements and is now well developed.
 
-The project is based on an ESP32 dev kit, specifically the TTGO T8 V1.7 with onboard LiPo charger and microSD card socket. Other ESP32 boards could be used but few are available with the integrated microSD socket. Stand-alone sockets are available that can easily be connected to the ESP32. https://www.viator.com/blog/article/8-countries-americans-can-still-visit-right-now/l24801?m=63727&nid=VR.cf92b487-8450-491a-986a-8148f66edec9.VT_EMAIL_TRV
+The project is based on an ESP32 dev kit, specifically the TTGO T8 V1.7 with onboard LiPo charger and microSD card socket. Other ESP32 boards could be used but few are available with the integrated microSD socket. Stand-alone sockets are available that can easily be connected to the ESP32.
 
 E-bike battery current is measured with an ACS712 Hall-effect sensor rated at 20 amperes. Battery voltage is measured with one of the built-in analog to digital converters provided in the ESP32 and scaled with a simple voltage divider. Measured and calculated values are displayed on an LCD1602 backlit display and simultaneously logged to the SD card. At the end of your ride, you remove the card and plug it into a PC to read the comma-separated value (CSV) data. Future development will do the logging on a smartphone allowing the data to be combined with GPS tracking and video recording.
 
