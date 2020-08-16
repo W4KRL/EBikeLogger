@@ -40,16 +40,16 @@ The code and schematic for the project are on GitHub at https://github.com/W4KRL
 
 1. TTGO T8 V1.7 WiFi Bluetooth module with ESP32 with 16MB flash – See Aliexpress.com. You can use any ESP32 devkit with the addition of an SD card reader module.
 50V (or higher) to 5V Buck (Step-down) converter 1Amp or higher. Search Aliexpress for “DC 7-50V to 5V Step Down Converter”. The ones made for automobiles should work well. https://www.aliexpress.com/item/32916697168.html
-1. LCD 1602 display with I2C interface
-2. ACS712-20A – 20-amp version http://www.aliexpress.com/item/1103203995.html
-120 k-ohm resistor
-39 k-ohm resistor
-10 k-ohm resistor
-Deans Connector male
-Deans connector female
-USB Type-A connector. I used a socket taken from a dollar store phone charger.
-Single Pole, Double Throw (SPDT) switch
-Connectors and terminals as needed. Use #18 AWG wire or larger for the power circuit.
-Stripboard 93×55 mm prototype board https://www.taydaelectronics.com/small-stripboard-93x55mm-copper.html
-Project enclosure 71x106x39 mm https://www.taydaelectronics.com/project-plastic-box-03.html
-Micro SD card 1GB
+2. LCD 1602 display with I2C interface
+3. ACS712-20A – 20-amp version http://www.aliexpress.com/item/1103203995.html
+4. 120 k-ohm resistor
+5. 39 k-ohm resistor
+6. 10 k-ohm resistor
+7. Deans Connector male
+8. Deans connector female
+9. USB Type-A connector. I used a socket taken from a dollar store phone charger.
+10. Single Pole, Double Throw (SPDT) switch
+11. Connectors and terminals as needed. Use #18 AWG wire or larger for the power circuit.
+12. Stripboard 93×55 mm prototype board https://www.taydaelectronics.com/small-stripboard-93x55mm-copper.html
+13. Project enclosure 71x106x39 mm https://www.taydaelectronics.com/project-plastic-box-03.html
+14. Micro SD card 1GB
