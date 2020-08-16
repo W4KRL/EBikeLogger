@@ -38,10 +38,10 @@ The code and schematic for the project are on GitHub at https://github.com/W4KRL
 
 **PARTS LIST**
 
-TTGO T8 V1.7 WiFi Bluetooth module with ESP32 with 16MB flash – See Aliexpress.com. You can use any ESP32 devkit with the addition of an SD card reader module.
+1. TTGO T8 V1.7 WiFi Bluetooth module with ESP32 with 16MB flash – See Aliexpress.com. You can use any ESP32 devkit with the addition of an SD card reader module.
 50V (or higher) to 5V Buck (Step-down) converter 1Amp or higher. Search Aliexpress for “DC 7-50V to 5V Step Down Converter”. The ones made for automobiles should work well. https://www.aliexpress.com/item/32916697168.html
-LCD 1602 display with I2C interface
-ACS712-20A – 20-amp version http://www.aliexpress.com/item/1103203995.html
+1. LCD 1602 display with I2C interface
+2. ACS712-20A – 20-amp version http://www.aliexpress.com/item/1103203995.html
 120 k-ohm resistor
 39 k-ohm resistor
 10 k-ohm resistor
