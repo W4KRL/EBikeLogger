@@ -1,5 +1,5 @@
-# EBikeLogger
-Logs measured battery voltage and current, calculates amp-hours and watt-hours. Stores data on an SD card in CSV format.
+# E-Bike Logger
+Summary: This device logs measured battery voltage and current, calculates amp-hours and watt-hours, and stores the data on an SD card in CSV format.
 
 Soon after I got my Ancheer 26-inch folding electric bicycle, I built a data logger that directly measures battery voltage and current, and calculates wattage. It also records calculated energy consumption in terms of ampere-hours and watt-hours. It records this data on a microSD card every second. The datafile can be opened in a spreadsheet application like Excel to analyze and graph the data.
 
@@ -21,21 +21,22 @@ A bar graph of battery wattage from 0 to 400 watts. Each block is a 25-watt divi
 The clock display shows the current time using a 24-hour format and the hours:minutes:seconds since the beginning of the log.
 The code and schematic for the project are on GitHub at https://github.com/W4KRL/EBikeLogger.
 
-Here are some important details:
+**Here are some important details:**
 
-The software is written in the Arduino dialect of C++. You may install the latest version of the Arduino IDE from https://www.arduino.cc/en/Main/Software. Select the correct version for your computer. Do not use the Web version.
+* The software is written in the Arduino dialect of C++. You may install the latest version of the Arduino IDE from https://www.arduino.cc/en/Main/Software. Select the correct version for your computer. Do not use the Web version.
 
-Install the ESP32 core with the instructions at https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
+* Install the ESP32 core with the instructions at https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/
 
-Add these libraries using the Arduino IDE:
+* Add these libraries using the Arduino IDE:
 
-LiquidCrystal_I2C by Frank de Branbander https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library
-ezTime by Rop Gonggrijp – https://github.com/ropg/ezTime
-Add your WiFi SSID and password at the places indicated (approximately lines 40 and 41). Add your timezone using the Olson format at line 42. Use this reference https://gist.github.com/ykessler/3349954
+  * LiquidCrystal_I2C by Frank de Branbander https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library
+  * ezTime by Rop Gonggrijp – https://github.com/ropg/ezTime
+  
+* Add your WiFi SSID and password at the places indicated (approximately lines 40 and 41). Add your timezone using the Olson format at line 42. Use this reference https://gist.github.com/ykessler/3349954
 
-Save the file and upload it to the ESP32.
+* Save the file and upload it to the ESP32.
 
-PARTS LIST
+**PARTS LIST**
 
 TTGO T8 V1.7 WiFi Bluetooth module with ESP32 with 16MB flash – See Aliexpress.com. You can use any ESP32 devkit with the addition of an SD card reader module.
 50V (or higher) to 5V Buck (Step-down) converter 1Amp or higher. Search Aliexpress for “DC 7-50V to 5V Step Down Converter”. The ones made for automobiles should work well. https://www.aliexpress.com/item/32916697168.html
