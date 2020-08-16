@@ -1,5 +1,5 @@
 # E-Bike Logger
-Summary: This device logs measured battery voltage and current, calculates amp-hours and watt-hours, and stores the data on an SD card in CSV format.
+*Summary:* This device measures battery voltage and current, calculates amp-hours and watt-hours, and logs the data to an SD card in CSV format.
 
 Soon after I got my Ancheer 26-inch folding electric bicycle, I built a data logger that directly measures battery voltage and current, and calculates wattage. It also records calculated energy consumption in terms of ampere-hours and watt-hours. It records this data on a microSD card every second. The datafile can be opened in a spreadsheet application like Excel to analyze and graph the data.
 
