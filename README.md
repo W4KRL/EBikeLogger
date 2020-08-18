@@ -40,16 +40,16 @@ The code and schematic for the project are on GitHub at https://github.com/W4KRL
 
 1. TTGO T8 V1.7 WiFi Bluetooth module with ESP32 with 16MB flash – See Aliexpress.com. You can use any ESP32 devkit with the addition of an SD card reader module.
 2. 50V (or higher) to 5V Buck (Step-down) converter 1Amp or higher. Search Aliexpress for “DC 7-50V to 5V Step Down Converter”. The ones made for automobiles should work well. https://www.aliexpress.com/item/32916697168.html
-3. LCD 1602 display with I2C interface
+3. LCD 1602 display with I2C interface, recommend black letters on yellow backgound
 4. ACS712-20A – 20-amp version http://www.aliexpress.com/item/1103203995.html
-5. 120 k-ohm resistor
-6. 39 k-ohm resistor
-7. 10 k-ohm resistor
+5. 120 k&ohm; 1% resistor
+6. 39 k&ohm; 1% resistor
+7. 10 k&ohm; 1% resistor
 8. Deans Connector male
 9. Deans connector female
 10. USB Type-A connector. I used a socket taken from a dollar store phone charger.
 11. Single Pole, Double Throw (SPDT) switch
-12. Connectors and terminals as needed. Use #18 AWG wire or larger for the power circuit.
+12. Connectors and terminals as needed. Use #18 AWG (0.75 mm<sup>2</sup>) wire or larger for the power circuit.
 13. Stripboard 93×55 mm prototype board https://www.taydaelectronics.com/small-stripboard-93x55mm-copper.html
 14. Project enclosure 71x106x39 mm https://www.taydaelectronics.com/project-plastic-box-03.html
 15. Micro SD card 1GB
